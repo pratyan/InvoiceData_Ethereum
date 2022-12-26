@@ -1,0 +1,159 @@
+[
+  {
+    "inputs": [],
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "_buyerPAN",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "_sellerPAN",
+        "type": "uint256"
+      },
+      {
+        "internalType": "bool",
+        "name": "_payment_status",
+        "type": "bool"
+      },
+      {
+        "internalType": "uint256",
+        "name": "_amount",
+        "type": "uint256"
+      }
+    ],
+    "name": "Entry",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "bool",
+        "name": "_newPay",
+        "type": "bool"
+      },
+      {
+        "internalType": "uint256",
+        "name": "_serialNo",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "_sellerPAN",
+        "type": "uint256"
+      }
+    ],
+    "name": "Payment",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "current_no",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "name": "ledger",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "serial",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "BuyerPAN",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "SellerPAN",
+        "type": "uint256"
+      },
+      {
+        "internalType": "bool",
+        "name": "Payment_status",
+        "type": "bool"
+      },
+      {
+        "internalType": "uint256",
+        "name": "Amount",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "name": "track_b",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "name": "track_s",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]
